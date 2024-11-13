@@ -15,8 +15,8 @@ const planSchema = new mongoose.Schema({
   duration: String,
   price: Number,
   payment: paymentSchema,
-  startdate: Date,
-  enddate: Date,
+  startdate: String,
+  enddate: String,
   Active: Boolean,
 });
 
